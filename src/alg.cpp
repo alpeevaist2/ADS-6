@@ -7,9 +7,6 @@ using namespace std;
 
 BST<std::string> makeTree(char* filename)
 {
-
-} 
-BST<string> makeTree(char* filename) {
 BST<string> tree;
     ifstream file(filename);
     string str,word;
